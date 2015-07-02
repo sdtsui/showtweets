@@ -1,10 +1,13 @@
 html {
   background: #00AAE7;
 }
+body {
+   background: #00AAE7 !important;
+}
 
 .wrapper {
-  margin: 50px auto;
-  text-align: center;
+  margin: 50px auto !important;
+  text-align: center !important;
 }
 
 .tweet-cards{
@@ -73,10 +76,11 @@ p#date{
 
 /*sdfadksjakj*/
 
-span.lbut{
+/*span.lbut{
   background-color: green;
 }
 
 span.rbut{
   background-color: red;
 }
+*/
