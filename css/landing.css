@@ -6,7 +6,7 @@ body {
 }
 
 .wrapper {
-  margin: 50px auto !important;
+  margin: 100px auto !important;
   text-align: center !important;
 }
 
@@ -40,27 +40,27 @@ body {
 }
 
 p#name a{
-    text-decoration: none;
-    font-family: arial, helvetica;
-    color: #007BA8;
-    font-weight: bold;
-    position: relative;
-    bottom: 8px;
+  text-decoration: none;
+  font-family: arial, helvetica;
+  color: #007BA8;
+  font-weight: bold;
+  position: relative;
+  bottom: 8px;
 }
 
 .tweet{
-    position: relative;
-    bottom: 7px;
-    width: 260px;
-    height: 102px;
-    word-wrap: break-word;
-    text-align: center;
-    line-height: 18px;
-    margin: auto;
-    font-weight: 200;
-    font-family: helvetica neue;
-    font-size: 0.95em;
-    color: #545454;
+  position: relative;
+  bottom: 7px;
+  width: 260px;
+  height: 102px;
+  word-wrap: break-word;
+  text-align: center;
+  line-height: 18px;
+  margin: auto;
+  font-weight: 200;
+  font-family: helvetica neue;
+  font-size: 0.95em;
+  color: #545454;
 }
 
 p#date{
@@ -74,13 +74,13 @@ p#date{
 
 
 
+@viewport {
+  width: device-width;
+  zoom: 1;
+}
 /*sdfadksjakj*/
 
-/*span.lbut{
-  background-color: green;
-}
 
-span.rbut{
-  background-color: red;
+span.swipeButton{
+  box-shadow: 5px 5px 3px #888888; 
 }
-*/
