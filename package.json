@@ -18,13 +18,14 @@
   "license": "MIT",
   "homepage": "showtweets4.herokuapp.com",
   "dependencies": {
+    "backbone": "*",
+    "bootstrap": "^3.3.5",
     "express": "^4.13.0",
+    "get-tweets": "^1.1.4",
+    "jquery": "*",
+    "nodemon": "*",
     "socket.io": "^1.3.5",
-    "underscore": "^1.8.3",
-    "jquery" : "*",
-    "nodemon" : "*",
-    "twitter" : "*",
-    "jquery" : "*",
-    "backbone": "*"
+    "twitter": "*",
+    "underscore": "^1.8.3"
   }
 }

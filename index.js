@@ -16,10 +16,15 @@ var client = new Twitter({
   access_token_secret: 'zDpOuxLUTief5qC6hryIYFPIcW2URHOrIVAJ9N0Ve9rYb'
 });
  
-var params = {screen_name: 'nodejs'};
-client.get('statuses/user_timeline', params, function(error, tweets, response){
-  if (!error) {
-    console.log(tweets);
-  }
-  console.log('req attempted:');
+var params = {screen_name: 'sdtsui'};
+// client.get('statuses/user_timeline', params, function(error, tweets, response){
+//   if (!error) {
+//     console.log(tweets);
+//   }
+//   console.log('req attempted:');
+// });
+
+console.log('search tweets :');
+client.get('search/tweets', {q: 'node.js'}, function(error, tweets, response){
+   console.log(tweets);
 });
