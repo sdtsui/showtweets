@@ -1,5 +1,5 @@
 # showtweets
-showtweets - Full-Stack Application in jQuery, Bootstrap, ES5, Node/Express, and HTML5/CSS3, on 06-30.  
+showtweets - Full-Stack Application in jQuery, Bootstrap, ES5, Node/Express, and HTML5/CSS3, for Beeyond.io on 06-30.  
 Uses LocalStorage and Twitter API.
 
 #Adding Readme:
